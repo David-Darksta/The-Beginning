@@ -14,7 +14,7 @@ This project is a simple personal introduction page showcasing my HTML skills an
 ## How to View
 
 View the live project: 
-- https://yourusername.github.io/your-repo-name/
+- https://david-darksta.github.io/The-Beginning/
 
 ---
 
