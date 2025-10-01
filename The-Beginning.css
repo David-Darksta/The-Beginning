@@ -91,6 +91,7 @@ p:hover {
   font-size: 40px;
   border-radius: 23px;
   transition: 80ms;
+  cursor: pointer;
 }
 
 #find:hover {
@@ -100,4 +101,27 @@ p:hover {
 #find:active {
   color: black;
   background-color: turquoise;
+
+}
+
+@media (max-width: 600px) {
+
+  div {
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 1rem;
+    line-height: 45px;
+  }
+  
+  p {
+    font-size: 20px;
+    padding-right: 10vh;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    word-spacing: 5px;
+  }
 }
