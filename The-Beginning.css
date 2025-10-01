@@ -62,6 +62,11 @@ p:hover {
   color: rgb(0, 0, 0);
 }
 
+a {
+  user-select: none;
+  cursor: pointer;
+}
+
 #link {
   color: turquoise;
   text-decoration: none;
@@ -102,6 +107,11 @@ p:hover {
   color: black;
   background-color: turquoise;
 
+}
+
+::selection {
+  background: rgb(0, 0, 0);
+  color: turquoise;
 }
 
 @media (max-width: 600px) {
